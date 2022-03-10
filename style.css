@@ -1,0 +1,13 @@
+.container {
+    background-color: pink;
+    padding: 10px;
+    margin: 20px;
+}
+
+#paragraph {
+    font-size: 34px;
+}
+
+h1 {
+    text-align: center;
+}
