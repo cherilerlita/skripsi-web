@@ -15,7 +15,7 @@ function App() {
           <form className="login-container">
             <label for="fname">Email Address</label>
             <input type="text" id="fname" name="fname" />
-            <label for="lname">Pass</label>
+            <label for="lname">Password</label>
             <input type="text" id="lname" name="lname" /><br />
             <button>Login</button>
 
