@@ -5,86 +5,27 @@
 .App {
   background-color: #ffffff;
   padding: 30px;
-  align-items: center;
+  height: 100vh;
 }
 
 .background {
-  background-image: linear-gradient(#E5293E, #FFFFFF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(#e5293e, #ffffff);
   border-radius: 10px;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  min-height: 500px;
-  max-height: 1000px;
+  height: 100%;
+  width: 100%;
   padding: 50px;
 }
 
 img {
-  width: 60%;
-  margin-right: 40px;
-}
-
-.login-container {
-  /* margin-top: 50px; */
-  display: flex;
-  flex-direction: column;
-
-  background-color: #ffffff;
-  padding: 50px 30px 10px 30px;
-  width: 40%;
-
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.login-container button {
-  background-color: #E5293E;
-  padding: 20px;
-  border-radius: 10px;
-  color: #ffffff;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.login-container label {
-  font-size: 24px;
-  color: #848EA0;
-
-  margin-bottom: 10px;
-}
-
-.login-container input {
-  margin-bottom: 10px;
-  background-color: #C4C4C4;
-  padding: 15px;
-  color: #848EA0;
-  border-radius: 5px;
-  font-size: 20x;
-}
-
-.login-container h1 {
-  font-size: 18px;
-  color: #848EA0;
-  text-align: center;
-}
-
-.login-container h1 span{
-  color: #E84153;
-  cursor: pointer;
-}
-
-.title-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.title-container h1 {
-  font-size: 64px;
-  font-weight: 900;
-  color: #ffffff;
-  cursor: pointer;
+  width: 80%;
+  margin-right: 100px;
 }
 
 .content-flex {

@@ -1,0 +1,8 @@
+.regis-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.regis-flex div:first-child {
+  margin-right: 20px;
+}
